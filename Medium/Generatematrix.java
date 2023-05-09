@@ -6,12 +6,10 @@ import java.util.Collections;
 public class Generatematrix {
 
     public static void main(String[] args) {
-        String a="vivek";
-        System.out.println(a.charAt(0)=='v');
         int n=2;
-//        generateMatrix(n);
+        generateMatrix(n);
     }
-    public static ArrayList<ArrayList<Integer>> generateMatrix(int n) {
+    public static void generateMatrix(int n) {
         ArrayList<ArrayList<Integer>> mat = new ArrayList<>(n);
         for(int i=0;i<n;i++){
             mat.add(new ArrayList<>(n));
@@ -44,6 +42,6 @@ public class Generatematrix {
             }
             System.out.println();
         }
-        return mat;
+//        return mat;
     }
 }

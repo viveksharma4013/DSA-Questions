@@ -61,12 +61,11 @@ public class MinimumDistance {
         Collections.reverse(arr_suffix);
 //        System.out.println(arr_prefix);
 //        System.out.println(arr_suffix);
-        String pos= "";
         for(int i=0;i<n;i++){
             if(A.charAt(i)=='o'){
 
                 int dist = Math.min(arr_prefix.get(i),arr_suffix.get(i));
-                minDist= dist<minDist?dist:minDist;
+                minDist= Math.min(dist, minDist);
             }
         }
         return minDist>n?-1:minDist;
