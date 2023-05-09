@@ -1,4 +1,4 @@
-package BitManipulation;
+package Medium;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,8 +6,10 @@ import java.util.Collections;
 public class Generatematrix {
 
     public static void main(String[] args) {
+        String a="vivek";
+        System.out.println(a.charAt(0)=='v');
         int n=2;
-        generateMatrix(n);
+//        generateMatrix(n);
     }
     public static ArrayList<ArrayList<Integer>> generateMatrix(int n) {
         ArrayList<ArrayList<Integer>> mat = new ArrayList<>(n);

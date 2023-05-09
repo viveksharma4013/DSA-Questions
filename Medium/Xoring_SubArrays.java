@@ -1,4 +1,4 @@
-package BitManipulation;
+package Medium;
 /*
 Given an integer array A of size N.
 
